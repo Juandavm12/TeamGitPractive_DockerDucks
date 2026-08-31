@@ -4,12 +4,18 @@ namespace TeamGitPractice.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class  StatusController : ControllerBase
+    public class StatusController : ControllerBase
     {
         [HttpGet]
         public IActionResult GetStatus()
         {
             return Ok(new { status = "Running" });
+        }
+
+        [HttpGet("team")]
+        public IActionResult GetTeamStatus()
+        {
+            return Ok(new { team = "Docker Ducks", status = "Ready" });
         }
     }
 }
