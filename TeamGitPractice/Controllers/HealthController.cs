@@ -13,8 +13,8 @@ public class HealthController : ControllerBase
     }
 
     [HttpGet("time")]
-    public IActionnResult GetTime()
+    public IActionResult GetTime()
     {
-        return Ok(new {utcTime = DateTime.UtcNow})
+        return Ok(new { utcTime = DateTime.UtcNow });
     }
 }
