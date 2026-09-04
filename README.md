@@ -56,7 +56,6 @@ Práctica colaborativa de Git y GitHub desarrollada por el equipo Docker Ducks. 
 
 | Método | Endpoint | Descripción |
 | --- | --- | --- |
-| GET | `/WeatherForecast` | Endpoint base generado por la plantilla de ASP.NET Core. |
 | GET | `/api/status` | Retorna el estado general de la API. |
 | GET | `/api/status/team` | Retorna el estado del equipo Docker Ducks. |
 | GET | `/api/health` | Retorna información básica de salud del servicio. |
@@ -65,6 +64,8 @@ Práctica colaborativa de Git y GitHub desarrollada por el equipo Docker Ducks. 
 | GET | `/api/info/tools` | Retorna las herramientas utilizadas durante la práctica. |
 | GET | `/api/version` | Retorna la versión de la API. |
 | GET | `/api/version/platform` | Retorna información de plataforma del proyecto. |
+| GET | `/api/members` | Retorna la lista con los nombres de los miembros del equipo. |
+| GET | `/api/members/count` | Retorna la cantidad total de miembros del equipo. |
 
 ## Evidencias
 
